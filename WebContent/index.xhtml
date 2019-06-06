@@ -1,11 +1,51 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:ui="http://java.sun.com/jsf/facelets"
-      xmlns:f="http://java.sun.com/jsf/core"
-      xmlns:h="http://java.sun.com/jsf/html"> 
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
 
-<h:head></h:head> 
-<body> 
-
-</body> 
+<h:head>
+	<h:outputStylesheet name="style.css" library="css" />
+	<h:outputStylesheet name="template.css" library="css" />
+</h:head>
+<body>
+	<h2>
+		<center>
+			<p>Bem-vindo ao Hasgard de Touro</p>
+		</center>
+	</h2>
+	<section class="geral">
+	<div class="container">
+		<section>
+		<div class="widget">
+			<div class="widget-title">
+				<div class="widget-title-text">Latest News</div>
+				<div class="widget-title-bar"></div>
+			</div>
+			<div class="widget-body flex">
+				<ui:repeat var="" value="">
+					<article> <a href="">
+					<div class="news-data">
+						<div class="news-posted-at">30 DEC 18</div>
+						<div class="news-comments">2</div>
+					</div>
+					<div class="news-thumbnail">
+						<img src="assets/images/dr.jpg"/>
+					</div>
+					<div class="news-title">Lorem ipsum dolor sit amat velum</div>
+					<div class="news-resume">A great way for learning a language!
+						Read true stories and facts about life, nature and the universe,
+						in bilingual, English and Portuguese, side by side texts. Practice
+						your English or Portuguese! A great way for learning a language!
+						Read true stories and facts about life, nature and the universe,
+						in bilingual, English and Portuguese, side by side texts. Practice
+						your English or Portuguese!</div>
+				</a> </article>
+				</ui:repeat>
+			</div>
+		</div>
+		</section>
+	</div>
+	</section>
+</body>
 </html>
